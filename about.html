@@ -2,6 +2,20 @@
     .row {
         justify-content: center !important;
     }
+
+    .cta {
+  background: rgba(0, 0, 0, 0.6) /* Black color with 60% opacity */
+  url("assets/img/KLCC-view.jpg") /* Path to the background image */
+  fixed /* Fixed background attachment */
+  center center; /* Background position at the center of both axes */
+  background-size: cover;
+  padding: 120px 0;
+}
+
+#img-fluid-logo {
+    max-width: 80% !important;
+    height: auto;
+}
 </style>
 <!DOCTYPE html>
 <html lang="en">
@@ -54,20 +68,23 @@
 
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#index.html">Home</a></li>
+                        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
+                        
                         <li class="dropdown"><a href="#"><span>Fares</span> <i class="bi bi-chevron-down"></i></a>
                                     <ul>
                                         <li><a href="busFares.html">Bus Fares</a></li>
                                         <li><a href="parkingRates.html">Parking Rates</a></li>
                                     </ul>
                                 </li>
-                        <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto" href="directory.html">Directory</a></li>
+                        <li class="dropdown"><a href=""><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
                                 
                                 <li><a href="busArrivalDepartureList.html">Bus Arrival & Departure List</a></li>
                                 <li><a href="map.html">Interactive Map</a></li>
                                 <li><a href="facility.html">Facilities</a></li>
+                                <li><a href="promotions.html">Promotions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
@@ -119,18 +136,18 @@
 
                                 <div class="row gy-4">
                                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                                        <img src="assets/img/clients/tegas.png" class="img-fluid" id="img-fluid-logo" alt="">
                                     </div><!-- End Client Item -->
 
-                                   <div class="col-xl-2 col-md-3 col-6 client-logo">
-                                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                                    </div><!-- End Client Item -->
-                                    
                                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                                        <img src="assets/img/clients/wilayah-persekutuan.png" class="img-fluid" id="img-fluid-logo" alt="">
                                     </div><!-- End Client Item -->
 
-                                    
+                                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                                        <img src="assets/img/clients/TBG-logo.png" class="img-fluid" id="img-fluid-logo" alt="">
+                                    </div><!-- End Client Item -->
+
+
 
                                 </div>
                             </div>
@@ -386,7 +403,7 @@
             <br><br><br>
         </main><!-- End #main -->
 
-   <!-- ======= Footer ======= -->
+        <!-- ======= Footer ======= -->
         <footer id="footer">
 
             <div class="footer-top">
@@ -445,7 +462,7 @@
                         &copy; Copyright <strong><span>Terminal Bersepadu Gombak</span></strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                       
+
                     </div>
                 </div>
                 <div class="social-links text-center text-md-end pt-3 pt-md-0">

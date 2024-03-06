@@ -59,7 +59,14 @@
         margin-right: 13px;
     }
     /* Optional: Add styles for your portfolio items here */
-
+.cta {
+        background: rgba(0, 0, 0, 0.6) /* Black color with 60% opacity */
+            url("assets/img/directory.jpg") /* Path to the background image */
+            fixed /* Fixed background attachment */
+            center center; /* Background position at the center of both axes */
+        background-size: cover;
+        padding: 120px 0;
+    }
 
 </style>
 <!DOCTYPE html>
@@ -106,27 +113,30 @@
         <!-- ======= Header ======= -->
         <header id="header" class="fixed-top d-flex align-items-center">
             <div class="container d-flex align-items-center">
-                <!--                <a href="index.html" class="logo me-auto"><img src="assets/img/TBG-logo.png" alt=""></a>-->
+<!--                <a href="index.html" class="logo me-auto"><img src="assets/img/TBG-logo.png" alt=""></a>-->
                 <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/TBG-logo.png" alt="">    Terminal Bersepadu Gombak<span></span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-
+                 
 
                 <nav id="navbar" class="navbar order-last order-lg-0">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#index.html">Home</a></li>
+                        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
+                        
                         <li class="dropdown"><a href="#"><span>Fares</span> <i class="bi bi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="busFares.html">Bus Fares</a></li>
+                                        <li><a href="parkingRates.html">Parking Rates</a></li>
+                                    </ul>
+                                </li>
+                        <li><a class="nav-link scrollto" href="directory.html">Directory</a></li>
+                        <li class="dropdown"><a href=""><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="busFares.html">Bus Fares</a></li>
-                                <li><a href="parkingRates.html">Parking Rates</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul>
-
+                                
                                 <li><a href="busArrivalDepartureList.html">Bus Arrival & Departure List</a></li>
                                 <li><a href="map.html">Interactive Map</a></li>
                                 <li><a href="facility.html">Facilities</a></li>
+                                <li><a href="promotions.html">Promotions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="#"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
@@ -176,57 +186,34 @@
                     <div class="row" id="flexSearchCategory" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-12 d-flex justify-content-left">
                             <h4 id="categoryLabel">Categories</h4>
-                            <select class="form-control bg-light" id="portfolio-category""><option value="" class="bg-light  text-dark">ALL</option> <option class="bg-light text-dark" value="768">
-                                    Amenities and Facilities
-                                </option><option class="bg-light text-dark" value="769">
-                                    Anchors
-                                </option><option class="bg-light text-dark" value="770">
-                                    Bakery
-                                </option><option class="bg-light text-dark" value="771">
-                                    Banking
-                                </option><option class="bg-light text-dark" value="772">
-                                    Beauty
-                                </option><option class="bg-light text-dark" value="773">
-                                    Books / Stationeries
-                                </option><option class="bg-light text-dark" value="774">
-                                    Digital Lifestyle &amp; Electrical
-                                </option><option class="bg-light text-dark" value="775">
-                                    Educational
-                                </option><option class="bg-light text-dark" value="776">
-                                    Edutainment
-                                </option><option class="bg-light text-dark" value="777">
-                                    Entertainment
-                                </option><option class="bg-light text-dark" value="778">
-                                    Eyewear &amp; Optical
-                                </option><option class="bg-light text-dark" value="779">
-                                    Fashion
-                                </option><option class="bg-light text-dark" value="52">
-                                    Food &amp; Beverages
-                                </option><option class="bg-light text-dark" value="780">
-                                    Food &amp; Beverages
-                                </option><option class="bg-light text-dark" value="781">
-                                    Gifts &amp; Souvenirs
-                                </option><option class="bg-light text-dark" value="782">
-                                    Haircare / Salon
-                                </option><option class="bg-light text-dark" value="783">
-                                    Health &amp; Fitness
-                                </option><option class="bg-light text-dark" value="784">
-                                    Healthcare
-                                </option><option class="bg-light text-dark" value="785">
-                                    Home
-                                </option><option class="bg-light text-dark" value="786">
-                                    Jewellery
-                                </option><option class="bg-light text-dark" value="787">
-                                    Services
-                                </option><option class="bg-light text-dark" value="788">
-                                    Specialty
-                                </option><option class="bg-light text-dark" value="790">
-                                    Supermarket
-                                </option><option class="bg-light text-dark" value="791">
-                                    Timepieces
-                                </option><option class="bg-light text-dark" value="792">
-                                    Toys
-                                </option></select>
+                            <select class="form-control bg-light" id="portfolio-filters">
+                                <option value="*" class="filter-active">All</option>
+                                <option value=".filter-Amenities">Amenities and Facilities</option>
+                                <option value=".filter-Anchors">Anchors</option>
+                                <option value=".filter-Bakery">Bakery</option>
+                                <option value=".filter-Banking">Banking</option>
+                                <option value=".filter-Beauty">Beauty</option>
+                                <option value=".filter-Books">Books / Stationeries</option>
+                                <option value=".filter-Digital">Digital Lifestyle</option>
+                                <option value=".filter-Educational">Educational</option>
+                                <option value=".filter-Entertainment">Entertainment</option>
+                                <option value=".filter-Eyewear">Eyewear & Optical</option>
+                                <option value=".filter-Fashion">Fashion</option>
+                                <option value=".filter-FB">Food & Beverages</option>
+                                <option value=".filter-Gifts">Gifts & Souvenirs</option>
+                                <option value=".filter-Haircare">Haircare / Salon</option>
+                                <option value=".filter-HealthFitness">Health & Fitness</option>
+                                <option value=".filter-Healthcare">Healthcare</option>
+                                <option value=".filter-Home">Home</option>
+                                <option value=".filter-Jewellery">Jewellery</option>
+                                <option value=".filter-Services">Services</option>
+                                <option value=".filter-Specialty">Specialty</option>
+                                <option value=".filter-Supermarket">Supermarket</option>
+                                <option value=".filter-Timepieces">Timepieces</option>
+                                <option value=".filter-Toys">Toys</option>
+
+                            </select>
+
                         </div>
                         <div class="col-lg-12 d-flex justify-content-end">
                             <input type="text" id="portfolio-search" placeholder="Search...">
@@ -238,36 +225,153 @@
 
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Amenities">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/badminton-court.png" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/locker.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Badminton Court</h4>
-                                    <!--                                    <p></p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
+                                    <h4><a href="portfolio-details.html" id="moreDetails" title="More Details">Lockers</a></h4>
+                                    <p>Level 3, LOT 27</p>
+                                   
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Amenities">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/bowling-court.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/charging-station.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Bowling</h4>
-                                    <!--                                    <p></p>-->
+                                    <h4>Charging Station</h4>
+                                    <!--                                    <p>Web</p>-->
                                     <div class="portfolio-links">
                                         <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Bakery">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/futsal-court.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/bread-story.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Futsal Court</h4>
+                                    <h4>Bread Story</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Banking">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/ATM.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>ATM</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Books">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/popular.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Popular</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Fashion">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/brands-outlet.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Brands Outlet</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Eyewear">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/mog.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>MOG</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-Fashion">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/adidas.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Adidas</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/4fingers.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>4 Fingers</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/A&W.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>A&W</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/boost.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>BOOST</h4>
+                                    <!--                                    <p>Web</p>-->
+                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/auntieAnne.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Auntie Anne's</h4>
                                     <!--                                    <p>Web</p>-->
                                     <div class="portfolio-links">
                                         <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -372,28 +476,56 @@
         <script src="assets/js/main.js"></script>
         <!-- Add this script at the end of your HTML body or in the head -->
         <script>
-            $(document).ready(function () {
-                // Initialize Isotope
-                var $portfolioContainer = $('.portfolio-container').isotope({
-                    itemSelector: '.portfolio-item',
-                    layoutMode: 'fitRows'
-                });
+   $(document).ready(function () {
+    var $portfolioContainer = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+    });
 
-                // Filter items on button click
-                $('#portfolio-flters').on('click', 'li', function () {
-                    var filterValue = $(this).attr('data-filter');
-                    $portfolioContainer.isotope({filter: filterValue});
-                });
+    // Store the selected category filter
+    var selectedCategoryFilter = '*';
 
-                // Search functionality
-                $('#portfolio-search').on('input', function () {
-                    var searchValue = $(this).val().toLowerCase();
-                    $portfolioContainer.isotope({filter: function () {
-                            return $(this).text().toLowerCase().indexOf(searchValue) > -1;
-                        }});
-                });
-            });
+    // Filter items on select change
+    $('#portfolio-filters').on('change', function () {
+        // Clear the search input when a category is selected
+        $('#portfolio-search').val('');
+
+        selectedCategoryFilter = $(this).val();
+        filterPortfolioItems();
+        AOS.refresh();
+    });
+
+    // Search functionality
+    $('#portfolio-search').on('input', function () {
+        filterPortfolioItems();
+    });
+
+    function filterPortfolioItems() {
+        var searchValue = $('#portfolio-search').val().toLowerCase();
+
+        // Combine the category filter and search filter
+        var combinedFilter = selectedCategoryFilter;
+
+        // Only search in the <h4> elements
+        if (searchValue) {
+            combinedFilter += ':has(h4:contains("' + searchValue + '"))';
+        }
+
+        $portfolioContainer.isotope({
+            filter: combinedFilter
+        });
+    }
+
+    // Custom jQuery :contains() selector for case-insensitive search
+    $.expr[':'].contains = $.expr.createPseudo(function(arg) {
+        return function( elem ) {
+            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+        };
+    });
+});
+
         </script>
+
     </body>
 
 </html>

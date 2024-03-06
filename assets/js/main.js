@@ -198,32 +198,27 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
+  let portfolioContainer = select('.portfolio-container');
+  if (portfolioContainer) {
+    let portfolioIsotope = new Isotope(portfolioContainer, {
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+
+    let portfolioFilterSelect = select('#portfolio-filters');
+
+    on('change', '#portfolio-filters', function() {
+      let selectedFilter = this.value;
+
+      portfolioIsotope.arrange({
+        filter: selectedFilter
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      AOS.refresh();
+    });
+  }
+});
 
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
-    }
-
-  });
 
   /**
    * Initiate portfolio lightbox 
