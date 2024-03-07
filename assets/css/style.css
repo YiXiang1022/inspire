@@ -129,8 +129,8 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #111111;
-  color: #fff;
+  background: #e65d5f;
+  color: #fff !important;
 }
 
 @media (max-width: 992px) {
