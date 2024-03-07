@@ -1064,7 +1064,9 @@ section#topBreadcrumbs {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+p#store-details {
+    font-size: small !important;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
