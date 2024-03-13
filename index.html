@@ -1,4 +1,52 @@
+
 <!DOCTYPE html>
+<style>
+    
+    .testimonial-wrap {
+    position: relative;
+    display: inline-block; /* Allows the overlay to cover the image */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+}
+
+.testimonial-wrap:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.overlay p {
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust font size as needed */
+    text-align: center; /* Center align text */
+}
+h2#locationName {
+    color: white;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img#touristImage {
+    max-width: 100%;
+    height: 300px !important;
+}
+</style>
 <html lang="en">
 
     <head>
@@ -123,7 +171,380 @@
             </section><!-- End Clients Section -->
 
 
+ <!-- ======= Hero Section ======= -->
+            <section class="d-flex align-items-center">
 
+                <div class="container" data-aos="zoom-out" data-aos-delay="100">
+
+                    <iframe id="ytplayer" type="text/html" width="100%" height="650px" src="https://www.youtube.com/embed/cFEztHFeU8o?autoplay=1&mute=1&enablejsapi=1&showinfo=0&rel=0" frameborder="0"></iframe>
+
+
+                </div>
+
+            </section><!-- End Hero -->
+
+            <section id="testimonials" class="testimonials">
+                <div class="container aos-init aos-animate" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Discovering Our Malaysia</h2>
+                        <p></p>
+                    </div>
+
+                    <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="swiper-wrapper" id="swiper-wrapper-b6eaeeed1261aec0" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-2868px, 0px, 0px); transition-delay: 0ms;">
+
+                            <!-- End testimonial item -->
+
+                            <!-- End testimonial item -->
+
+                            <!-- End testimonial item -->
+
+                            <!-- End testimonial item -->
+
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/KL-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">KLCC</h2>
+                                        <p>Kuala Lumpur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/sabah-1.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Mount Kinabalu</h2>
+                                        <p>Sabah</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/labuan-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Papan Island</h2>
+                                        <p>Labuan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/perlis-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Kuala Perlis</h2>
+                                        <p>Perlis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/perak-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Leaning Clock Tower</h2>
+                                        <p>Perak</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/melaka-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Stadthuys</h2>
+                                        <p>Melaka</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/NS-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Mosque of Sri Sendayan</h2>
+                                        <p>Negeri Sembilan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/kelantan-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Wau Making</h2>
+                                        <p>Kelantan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/kedah-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Sedim River</h2>
+                                        <p>Kedah</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/pahang-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Cameron Highlands</h2>
+                                        <p>Pahang</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/Johor-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Mosque of Sultan Abu Bakar</h2>
+                                        <p>Johor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/selangor-1.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Chilling River</h2>
+                                        <p>Selangor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/sarawak-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Bako</h2>
+                                        <p>Sarawak</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/terengganu-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Redang Island</h2>
+                                        <p>Terengganu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/penang-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">ESCAPE</h2>
+                                        <p>Penang</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/KL-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Batu Cave</h2>
+                                        <p>Kuala Lumpur</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/sabah-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Semporna</h2>
+                                        <p>Sabah</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/labuan-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Sikh Temple</h2>
+                                        <p>Labuan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/perlis-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Mosque of Al Hussain</h2>
+                                        <p>Perlis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/perak-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Tempurung Cave</h2>
+                                        <p>Perak</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/melaka-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">ST PAUL HILL</h2>
+                                        <p>Melaka</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/NS-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Port Dickson</h2>
+                                        <p>Negeri Sembilan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/kelantan-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Sitting Buddha</h2>
+                                        <p>Kelantan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/kedah-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Kalong Hill</h2>
+                                        <p>Kedah</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/pahang-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Genting Highland</h2>
+                                        <p>Pahang</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/johor-1.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Legoland</h2>
+                                        <p>Johor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/selangor-2.jpg" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">FIRM</h2>
+                                        <p>Selangor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/sarawak-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Darul Hana Bridge</h2>
+                                        <p>Sarawak</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/terengganu-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Taman Tamadun Islam</h2>
+                                        <p>Terengganu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 936px; " data-swiper-slide-index="0">
+                                <div class="testimonial-wrap">
+                                    <img src="assets/img/gallery/penang-2.png" alt="" class="img-fluid" id="touristImage">
+                                    <div class="overlay">
+                                        
+                                        <h2 id="locationName">Kek Lok Si Temple</h2>
+                                        <p>Penang</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                </div>
+            </section>
 
 
 
