@@ -47,90 +47,7 @@ img#touristImage {
     height: 300px !important;
 }
 </style>
-<html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-        <title>Terminal Bersepadu Gombak</title>
-        <meta content="" name="description">
-        <meta content="" name="keywords">
-
-        <!-- Favicons -->
-        <link href="assets/img/TBG-logo.png" rel="icon">
-        <link href="assets/img/TBG-logo.png" rel="apple-touch-icon">
-
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet">
-
-        <!-- =======================================================
-        * Template Name: Terminal Bersepadu Gombak
-        * Updated: Jan 29 2024 with Bootstrap v5.3.2
-        * Template URL: https://bootstrapmade.com/Terminal Bersepadu Gombak-bootstrap-corporate-template/
-        * Author: BootstrapMade.com
-        * License: https://bootstrapmade.com/license/
-        ======================================================== -->
-    </head>
-
-    <body>
-
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top d-flex align-items-center">
-            <div class="container d-flex align-items-center">
-                <!--                <a href="index.html" class="logo me-auto"><img src="assets/img/TBG-logo.png" alt=""></a>-->
-                <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/TBG-logo.png" alt="">    Terminal Bersepadu Gombak<span></span></a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-
-
-                <nav id="navbar" class="navbar order-last order-lg-0">
-                    <ul>
-                        <li><a class="nav-link scrollto active" href="#index.html">Home</a></li>
-                        <li><a class="nav-link scrollto" href="about.html">About</a></li>
-
-                        <li class="dropdown"><a href="#"><span>Fares</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul>
-                                <li><a href="https://www.busonlineticket.com/terminal/terminal-bersepadu-selatan-tbs/" target="_blank">Bus Fares</a></li>
-                                <li><a href="parkingRates.html">Parking Rates</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="nav-link scrollto" href="directory.html">Directory</a></li>
-                        <li class="dropdown"><a href=""><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul>
-
-                                <li><a href="busArrivalDepartureList.html">Bus Arrival & Departure List</a></li>
-                                <!--                                <li><a href="map.html">Interactive Map</a></li>-->
-                                <li><a href="facility.html">Facilities</a></li>
-                                <li><a href="promotions.html">Promotions</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul>
-                                <li><a href="customerServices.html">Customer Services</a></li>
-                                <li><a href="businessInquiry.html">Business Inquiry</a></li>
-                                <li><a href="feedback.html">Feedback</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav><!-- .navbar -->
-
-                <a href="https://www.busonlineticket.com/terminal/terminal-bersepadu-selatan-tbs/" target="_blank" class="get-started-btn scrollto">Buy Ticket</a>
-            </div>
-        </header><!-- End Header -->
+<?php include 'header.php'; ?>
 
         <!-- ======= Hero Section ======= -->
         <section id="hero" class="d-flex align-items-center">
@@ -140,7 +57,7 @@ img#touristImage {
                     <div class="col-xl-6">
                         <h1>Better experience with Terminal Bersepadu Gombak (TBG)</h1>
                         <h2>Your Premier Eastern and Northern Gateway Transportation Transit Hub</h2>
-                        <a href="https://www.busonlineticket.com/terminal/terminal-bersepadu-selatan-tbs/" target="_blank" class="btn-get-started scrollto">Buy Ticket</a>
+<!--                        <a href="" target="_blank" class="btn-get-started scrollto"></a>-->
                     </div>
                 </div>
             </div>
@@ -176,13 +93,51 @@ img#touristImage {
 
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
 
-                    <iframe id="ytplayer" type="text/html" width="100%" height="650px" src="https://www.youtube.com/embed/cFEztHFeU8o?autoplay=1&mute=1&enablejsapi=1&showinfo=0&rel=0" frameborder="0"></iframe>
-
-
+                    <iframe id="ytplayer" type="text/html" width="100%" height="650px" src="https://www.youtube.com/embed/qtx6x7HnwL8?autoplay=1&mute=1&enablejsapi=1&showinfo=0&control=0&rel=0" frameborder="0"></iframe>
                 </div>
 
             </section><!-- End Hero -->
+<section id="counts" class="counts">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
 
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="0" class="purecounter">1463</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="0" class="purecounter">15</span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
             <section id="testimonials" class="testimonials">
                 <div class="container aos-init aos-animate" data-aos="fade-up">
                     <div class="section-title">
@@ -547,7 +502,152 @@ img#touristImage {
             </section>
 
 
+<section id="services" class="services section-bg ">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="#">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-card-checklist"></i>
+              <h4><a href="#">Dolor Sitema</a></h4>
+              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-bar-chart"></i>
+              <h4><a href="#">Sed ut perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-binoculars"></i>
+              <h4><a href="#">Nemo Enim</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-brightness-high"></i>
+              <h4><a href="#">Magni Dolore</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">Eiusmod Tempor</a></h4>
+              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+            <section id="testimonials" class="testimonials">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        </div>
+
+        <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper" id="swiper-wrapper-333154d46c9a1c2e" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-877.333px, 0px, 0px); transition-delay: 0ms;">
+
+            <!-- End testimonial item -->
+
+            <!-- End testimonial item -->
+
+            <!-- End testimonial item -->
+
+            <!-- End testimonial item -->
+
+            <!-- End testimonial item -->
+
+          <div class="swiper-slide" role="group" aria-label="2 / 5" style="width: 418.667px; margin-right: 20px;" data-swiper-slide-index="1">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 5" style="width: 418.667px; margin-right: 20px;" data-swiper-slide-index="2">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 5" style="width: 418.667px; margin-right: 20px;" data-swiper-slide-index="3">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 5" style="width: 418.667px; margin-right: 20px;" data-swiper-slide-index="4">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 418.667px; margin-right: 20px;" data-swiper-slide-index="0">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div></div>
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+      </div>
+    </section>
             <section id="team" class="team section-bg">
                 <div class="container" data-aos="fade-up">
 
@@ -576,92 +676,4 @@ img#touristImage {
 
         </main><!-- End #main -->
 
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
-
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Terminal Bersepadu Gombak<span></span></h3>
-                            <p>
-                                A108 Adam Street <br>
-                                New York, NY 535022<br>
-                                United States <br><br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
-                            </p>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 footer-newsletter">
-                            <h4>Join Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                            <form action="" method="post">
-                                <input type="email" name="email"><input type="submit" value="Subscribe">
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="container d-md-flex py-4">
-
-                <div class="me-md-auto text-center text-md-start">
-                    <div class="copyright">
-                        &copy; Copyright <strong><span>Terminal Bersepadu Gombak</span></strong>. All Rights Reserved
-                    </div>
-                    <div class="credits">
-
-                    </div>
-                </div>
-                <div class="social-links text-center text-md-end pt-3 pt-md-0">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                </div>
-            </div>
-        </footer><!-- End Footer -->
-
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
-
-    </body>
-
-</html>
+<?php include 'footer.php'; ?>
