@@ -55,8 +55,8 @@ img#touristImage {
             <div class="container" data-aos="zoom-out" data-aos-delay="100">
                 <div class="row">
                     <div class="col-xl-6">
-                        <h1>Better experience with Terminal Bersepadu Gombak (TBG)</h1>
-                        <h2>Your Premier Eastern and Northern Gateway Transportation Transit Hub</h2>
+                        <h1>Medical Ease,<br>Insurance Peace,<br> Inspire Consultancy<br> - Your Release</h1>
+                        <h2>Insurance solutions tailored, your worries disappear</h2>
 <!--                        <a href="" target="_blank" class="btn-get-started scrollto"></a>-->
                     </div>
                 </div>

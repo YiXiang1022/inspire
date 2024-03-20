@@ -70,7 +70,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/bethany.jpeg" class="img-fluid" alt="">
 
                         </div>
                         <div class="member-info">
@@ -94,7 +94,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/janiss.jpeg" class="img-fluid" alt="">
 
                         </div>
                         <div class="member-info">
@@ -107,7 +107,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/cindy.jpeg" class="img-fluid" alt="">
                             <div class="social">                                       
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/cindy.jpeg" class="img-fluid" alt="">
                             <div class="social">                                      
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
                         <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/kay.jpeg" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -155,7 +155,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/grace.jpeg" class="img-fluid" alt="">
 
                         </div>
                         <div class="member-info">
@@ -168,7 +168,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/cindy.jpeg" class="img-fluid" alt="">
                             <div class="social">                                       
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/mici.jpeg" class="img-fluid" alt="">
                             <div class="social">                                      
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
                         <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/audrey.jpeg" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -233,7 +233,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/kent.jpg" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
