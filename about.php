@@ -57,6 +57,53 @@
 
         </div>
     </section>
+
+    <section id="features" class="features">
+
+        <!--  Section Title -->
+        <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+            <h2>Features</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+
+
+            <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+                <div class="col-lg-6 d-flex align-items-center features-img-bg aos-init aos-animate" data-aos="zoom-out">
+                    <img src="assets/img/mission.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-5 d-flex justify-content-center flex-column aos-init aos-animate" data-aos="fade-up">
+                    <h3>Sunt consequatur ad ut est nulla</h3>
+                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                    <ul>
+                        <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                        <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                        <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+                    </ul>
+                    <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                </div>
+            </div><!-- Features Item -->
+            <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+
+                <div class="col-lg-5 d-flex justify-content-center flex-column aos-init aos-animate" data-aos="fade-up">
+                    <h3>Sunt consequatur ad ut est nulla</h3>
+                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                    <ul>
+                        <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                        <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                        <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+                    </ul>
+                    <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center features-img-bg aos-init aos-animate" data-aos="zoom-out">
+                    <img src="assets/img/vision.jpg" class="img-fluid" alt="">
+                </div>
+            </div><!-- Features Item -->
+        </div>
+
+    </section>
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
@@ -277,39 +324,39 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="row">
-
-                                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                    <div class="member" data-aos="fade-up" data-aos-delay="400">
-                                        <div class="member-img">
-                                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                                            <div class="social">
-                                                <a href=""><i class="bi bi-twitter"></i></a>
-                                                <a href=""><i class="bi bi-facebook"></i></a>
-                                                <a href=""><i class="bi bi-instagram"></i></a>
-                                                <a href=""><i class="bi bi-linkedin"></i></a>
+            <!--            <div class="row">
+            
+                                            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                                <div class="member" data-aos="fade-up" data-aos-delay="400">
+                                                    <div class="member-img">
+                                                        <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                                                        <div class="social">
+                                                            <a href=""><i class="bi bi-twitter"></i></a>
+                                                            <a href=""><i class="bi bi-facebook"></i></a>
+                                                            <a href=""><i class="bi bi-instagram"></i></a>
+                                                            <a href=""><i class="bi bi-linkedin"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="member-info">
+                                                        <h4>Kent Hoo</h4>
+                                                        <span>Insurance Advisor</span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4>Kent Hoo</h4>
-                                            <span>Insurance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                                    <div class="member" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="member-img">
-                                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                
-                                        </div>
-                                        <div class="member-info">
-                                            <h4>Kris Tan</h4>
-                                            <span>Insurance Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-            </div>-->
+                                            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                                                    <div class="member-img">
+                                                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            
+                                                    </div>
+                                                    <div class="member-info">
+                                                        <h4>Kris Tan</h4>
+                                                        <span>Insurance Advisor</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                        </div>-->
         </div>
     </section><!-- End Team Section -->
     <br><br><br>
